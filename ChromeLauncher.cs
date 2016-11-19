@@ -24,7 +24,8 @@ namespace Launcher
             {
                 throw new Exception("Could not find chrome.exe!");
             }
-            Process.Start(chromeAppFileName, url);
+            Uri myUri = new Uri(url);
+            Process.Start(chromeAppFileName, myUri.AbsoluteUri);
         }
     }
 }
