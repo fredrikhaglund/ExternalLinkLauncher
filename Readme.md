@@ -3,6 +3,8 @@
 
 Launcher.exe is used to open an external link in Chrome. It registers a protocol for extern:// and externs://. When external links are opened the url are first changed to start with to http:// and https:// and then opened with chrome.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/9iu8918k4xdrn8t7?svg=true)](https://ci.appveyor.com/project/fredrikhaglund/externallinklauncher)
+
 
 Background
 ----------
